@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: o;
+}
+
+body {
+    background-image: url();
+    background: linear-gradient(#0f23d7, #000a63);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px
+}
+
+#header {
+	/* background-image: url(./imagens/sapatosTop01.jpg); */
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+#fundo {
+    background-color: #fff;
+    background-image: url(./imagens/sapatosFundo01.jpg);
+}
+
+#logo {
+	height: 100px;
+	padding-right: 35px;
+}
+
+.menu {
+    list-style: none;
+    float: left;
+    background-color: rgba(#2f007a, 0.8);
+    border: 2px solid #ffffff;
+}
+
+.menu ul {
+    position: relative;
+    list-style: none;
+    padding: 0;
+    opacity: 0.9;
+    background-color: #2f007a;
+}
+
+.menu li {
+    position: relative;
+    float: left;
+}
+
+.menu li a {
+    color: #ffffff;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block;
+}
+
+.menu li a:hover {
+    background: #000e8d;
+    color: #fff;
+    -moz-box-shadow: 0 3px 10px #ccc;
+    -webkit-box-shadow: 0 3px 10px #ccc;
+    text-shadow: 0 0 5px;
+}
+
+.menu li ul {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    background-color: #000a63;
+    display: none;
+}
+
+.menu li:hover ul, .menu li.over ul {
+    display: block;
+}
+
+.menu li ul li {
+    border: 1px solid #c0c0c0;
+    display: block;
+    width: 150px;
+}
+
+.menu li:last-child {
+    border-right: none;
+}
+
+main {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.miolo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 70px;
+    height: 50px;
+    font-size: 24px;
+    background-color: #333333;
+    color: #000000;
+    box-shadow: 0 30px 30px rgba(#fff, 1);
+}
+
+footer {
+	color: white;
+    display: flex;
+    justify-content: center;
+	font-family: verdana;
+	font-size: 12px;
+    padding: 10px;
+}
