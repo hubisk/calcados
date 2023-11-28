@@ -1,0 +1,16 @@
+executivo comercial
+analista de bco de dados phyton
+desenvolvedor fuulstack
+
+
+ATIVIDADE RUWAJI CALÇADOS
+
+- Criar um site com o 	que já foi ensinado de html e css
+- tema, loja de calçados, com as seguintes páginas 
+> QUEM SOMOS
+> FORNECEDORES
+> CALÇADOS - Infatnil / Masculino / Feminino
+> RECEBA NOSSAS OFERTAS
+> CONTATO
+
+

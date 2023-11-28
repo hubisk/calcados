@@ -25,6 +25,7 @@ body {
 #fundo {
     background-color: #fff;
     background-image: url(./imagens/sapatosFundo01.jpg);
+    opacity: 8%;
 }
 
 #logo {
